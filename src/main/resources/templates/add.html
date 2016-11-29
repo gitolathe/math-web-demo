@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p th:text="'Result of ' + ${v1} + ' + ' + ${v2} + ' = ' + ${result.result}"/>
+<p th:text="'Caluculated by host \'' + ${result.host} + '\' at time ' + ${result.timestamp}"/>
+</body>
+</html>
